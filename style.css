@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand,
+#navbarNavDropdown {
+  margin: 0 50px;
+}
+
+.background a {
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.navbar ul {
+  font-size: 1.3rem;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.background {
+  background: url("./images/header-bg.jpg") center/cover;
+  height: 100vh;
+  background-position: center;
+}
