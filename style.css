@@ -5,14 +5,18 @@ body {
 
 .navbar-brand,
 #navbarNavDropdown {
-  margin: 0 50px;
+  margin: 10px 70px;
 }
 
-.background a {
+#background a {
   color: white;
+  font-size: 1.5rem;
+  margin-left: 70px;
+  font-weight: 500;
 }
 
-.navbar-brand {
+#background h2 {
+  color: white;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -29,4 +33,174 @@ body {
   background: url("./images/header-bg.jpg") center/cover;
   height: 100vh;
   background-position: center;
+}
+
+.bloc-text {
+  color: white;
+  margin-left: 80px;
+  margin-top: 300px;
+}
+
+.bloc-text h3 {
+  font-size: 2rem;
+}
+
+.bloc-text h4 {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.bloc-text button {
+  background: none;
+  border: solid 2px white;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.reseaux ul {
+  list-style: none;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  padding: 0 0;
+  font-size: 1.5rem;
+}
+
+/* **************** SECOND BLOC SERVICE ***************** */
+
+.services {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.services-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.services-container i {
+  border: solid 1px black;
+  font-size: 5rem;
+  padding: 50px;
+}
+
+.creative-design {
+  width: 200px;
+}
+
+.creative-design h2 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+/* ************ TROISIEME BLOC ABOUT US ******************* */
+
+.about-us {
+  background: rgb(246, 246, 246);
+  padding: 150px 50px;
+}
+
+.about-us-container {
+  display: flex;
+  gap: 50px;
+}
+
+.bloc-img img {
+  width: 850px;
+  height: auto;
+}
+
+.bloc-about-us {
+  width: 40%;
+}
+
+.bloc-about-us h2 {
+  color: goldenrod;
+  margin-top: 30px;
+}
+
+.bloc-about-us h3 {
+  color: black;
+  font-size: 4.8rem;
+}
+
+.bloc-about-us p {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.bloc-about-us button {
+  border: goldenrod solid 1px;
+  background: none;
+  font-weight: 600;
+  padding: 15px 40px;
+  font-size: 1.4rem;
+}
+
+/* bloc images project */
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". .";
+}
+
+.item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.item2 {
+  grid-area: 1 / 2 / 2 / 4;
+}
+.item3 {
+  grid-area: 2 / 1 / 3 / 3;
+}
+.item4 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.item,
+.item2,
+.item3,
+item4 {
+  position: relative;
+}
+
+.bandeau,
+.bandeau2 {
+  position: absolute;
+  background: white;
+}
+
+.bandeau {
+  width: 100%;
+}
+
+.bandeau2 {
+  right: 0;
+  padding: 40px 50px;
+}
+
+.bandeau {
+  padding: 20px 20px;
+}
+
+.bandeau2 p {
+  font-size: 1.3rem;
+}
+
+.img-container img {
+  border-radius: 25px;
+}
+
+.item2 img,
+.item3 img {
+  width: 100%;
 }
